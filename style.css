@@ -54,7 +54,7 @@ p{text-align: justify;}
 #personnage{margin-right: 10px;
     margin-left: 10px;}
 .reseau1{display: flex;}
-.reseau>p,{text-align: justify;}
+.reseau>p{text-align: justify;}
 #logo-icon{display: flex;
     justify-content: space-evenly;
     margin: 0;}
@@ -84,7 +84,7 @@ a{text-decoration: none;
     #personnage{display: flex;
         justify-content: center;}
     #logo,#chef,.button3,.reseau>.r1>p{display: none;}
-    #wrap,#footer,.reseau,.reseau1,{display:flex}
+    #wrap,#footer,.reseau,.reseau1{display:flex}
     .reseau{justify-content: space-evenly;
             align-items: center;
             padding: 10px;
@@ -108,9 +108,8 @@ a{text-decoration: none;
         align-items: space-evenly;}
     .perso1{
         width: 100%;}
-  }
 #button{float: right;}
-
+}
 /* style pour adapter la page a un format max de 640px */
 
 @media screen and (max-width: 640px) {
@@ -169,8 +168,7 @@ a{text-decoration: none;
         flex-direction: column;
         align-items: space-evenly;
     }
-    .perso1,{
+    .perso1{
         width: 100%;
     }
   }
- 
